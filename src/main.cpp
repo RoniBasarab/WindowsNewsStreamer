@@ -3,6 +3,6 @@
 
 int main()
 {
-    std::cout << "Windows News Channel Streamer v1.0.0\n";
-    return 0;
+		std::cout << "Windows News Channel Streamer v1.0.0\n";
+		return 0;
 }

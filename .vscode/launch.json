@@ -1,16 +1,14 @@
-﻿{
+{
     "version": "0.2.0",
     "configurations": [
         {
             "name": "Debug",
-            "type": "cppdbg",
+            "type": "cppvsdbg",
             "request": "launch",
             "program": "${command:cmake.launchTargetPath}",
             "args": [],
             "cwd": "${command:cmake.getLaunchTargetDirectory}",
-            "preLaunchTask": "CMake: build",
-            "MIMode": "gdb",
-            "miDebuggerPath": "C:/Users/ronib/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/gdb.exe"
+            "preLaunchTask": "CMake: build"
         }
     ]
 }
